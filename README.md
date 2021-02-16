@@ -1,4 +1,4 @@
-# This repo is to share analysis summaries with others
+# This repository is to share project summaries
 
 # Keep confidential please 
 
