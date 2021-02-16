@@ -1,10 +1,9 @@
-## This repository is to share project summaries
+# This repository is to share project summaries
 
 # Keep confidential please 
 
 ----------
 
-## TGD
 Translational Genomics of Diabetes
 
 [Han Sun, PhD](https://profiles.stanford.edu/han-sun) \
