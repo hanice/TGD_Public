@@ -2,8 +2,6 @@
 
 # Keep confidential please 
 
-----------
-
 Translational Genomics of Diabetes
 
 [Han Sun, PhD](https://profiles.stanford.edu/han-sun) \
