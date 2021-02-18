@@ -35,6 +35,8 @@ The alternative hypothesis is that there is a regulatory variant in this region 
 
 ![](DiabeticMouse_Strelka_Variants_AOI.vep_BarPlot.svg)
 
+> Check this [table](DiabeticMouse_Strelka_Variants_AOI.vep.vcf) for all the variants.
+
 -----
 
 ## Two variants which are homozygous in DM, heterozygous in NOD, and wt in B6
