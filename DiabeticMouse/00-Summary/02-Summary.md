@@ -33,9 +33,9 @@ The alternative hypothesis is that there is a regulatory variant in this region 
 - Focusing on the area of interest (AOI), extended by 3Mb each side
 - Manucal check candidate variants using IGV
 
-![](DiabeticMouse_Strelka_Variants_AOI.vep_BarPlot.svg)
-
 > Check this [table](DiabeticMouse_Strelka_Variants_AOI.vep.vcf) for all the variants.
+
+![](DiabeticMouse_Strelka_Variants_AOI.vep_BarPlot.svg)
 
 -----
 
