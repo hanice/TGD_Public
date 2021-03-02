@@ -71,6 +71,10 @@ This variant didn't appear in all the 37 strains sequenced by [MGI](http://www.i
 
 The variant is not nessassary functioning on GINS4. However, GINS4 deserves the first consideration. 
 
+![](GINS4_GTEx.svg)
+
+> GINS4 seems only highly expressed in cultured cells from the GTEx dataset.
+
 ![](31.01.2017.Differentiation_v2.gene.counts.GINS4.BarPlot.svg)
 
 > GINS4 expression in the differentiation from iPSC to BLC in three cell lines. GINS4 is highly expressed in the early stage but then the expression becomes very low.
