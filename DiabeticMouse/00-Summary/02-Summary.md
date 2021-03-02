@@ -91,7 +91,7 @@ Human GINS4 in [Type 2 Diabetes Knowledge Portal](https://t2d.hugeamp.org/)
 
 > Maybe too speculative: one possiblity is this variant may create a cryptic splice site (GT ... AG) and lead to NMD/dysfunction of Gins4 whose normal function is indispensable in the early development.
 
-![](chr8_23232493_PotentialSpliceSite.svg)
+![](DiabeticMouse_chr8_23232493_NovelSpliceSite.svg)
 
 > The mutated sequence does have higher potentiality to be a splice site.
 
