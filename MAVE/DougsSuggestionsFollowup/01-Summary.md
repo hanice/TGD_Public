@@ -46,7 +46,7 @@
 
 - Additionally, i’d still like to know what the correlation looks like for individual variant frequencies between the 3 unsorted bins, and all 3 sorted bins for the replicates
 
-> After removing small counts (e.g. counts > 20), the correlations look good to me, however, the number of codons retained are also small (only ~10%). 
+> After removing small counts (e.g. counts > 20), the correlations look good to me, however, the number of variants retained are also small (only ~10%). 
 
 <p float="left">
 <img src="MAVE_CodonCounts_MinCounts0_Correlation_BarPlot.svg" width="30%" />
