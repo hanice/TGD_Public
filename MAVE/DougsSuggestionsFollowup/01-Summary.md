@@ -2,7 +2,7 @@
 
 - I’d want to dig into the fact that variants tend to appear in only one bin a bit more.  For example, do individual variants tend to end up on the same (single) bin over and over?  Or is it essentially random?  Or is it random for low count variants and less random for high-count variants (relative to the input library)? Knowing about that might help really diagnose whether it is a PCR problem.
 
-> As shown in the venn diagrams for the variants appeared only in one assay/bin. They are random.
+> As shown in the venn diagrams for the variants appeared only in one assay/bin. They seem to be random (let me calculate p values this afternoon).
 
 <p float="left">
 <img src="Assay22_Min0_Venn.svg" width="30%" />
