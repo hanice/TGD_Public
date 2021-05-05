@@ -1,4 +1,4 @@
-# Follow-up on Doug's Suggestions
+# Follow-up to Doug's Suggestions
 
 - I’d want to dig into the fact that variants tend to appear in only one bin a bit more.  For example, do individual variants tend to end up on the same (single) bin over and over?  Or is it essentially random?  Or is it random for low count variants and less random for high-count variants (relative to the input library)? Knowing about that might help really diagnose whether it is a PCR problem.
 
