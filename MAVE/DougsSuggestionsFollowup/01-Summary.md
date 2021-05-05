@@ -23,6 +23,14 @@
 </p>
 
 <p float="left">
+<img src="Assays_Min0_Venn.svg" width="30%" />
+<img src="Assays_Min20_Venn.svg" width="30%" />
+<img src="Assays_Min100_Venn.svg" width="30%" />
+</p>
+
+----
+
+<p float="left">
 <img src="Low_Min0_Venn.svg" width="30%" />
 <img src="Low_Min20_Venn.svg" width="30%" />
 <img src="Low_Min100_Venn.svg" width="30%" />
@@ -39,6 +47,15 @@
 <img src="High_Min20_Venn.svg" width="30%" />
 <img src="High_Min100_Venn.svg" width="30%" />
 </p>
+
+<p float="left">
+<img src="Bins_Min0_Venn.svg" width="30%" />
+<img src="Bins_Min20_Venn.svg" width="30%" />
+<img src="Bins_Min100_Venn.svg" width="30%" />
+</p>
+
+
+
 
 - Relative to Sanger sequencing, I was just saying you could transform the library into bacteria (such that each cell gets a single plasmid), plate the transformation, allow single cells to grow into colonies, pick 8-16 individual colonies, then sequence those (individual clones).  that would tell you if you had any big problems with the library you didn’t anticipate
 
