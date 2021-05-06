@@ -99,6 +99,12 @@
 
 OK, I think we are getting closer to an answer.  Here are a couple more thoughts/requests:
 
--Your Venn diagrams show which variants are present in only one bin, 2 or 3 across replicates.  That’s good to know.  It’d also be good to look at a plot of variant frequency vs. probability(variant in only one bin) for each replicate.  A second plot that would be helpful is a barplot showing the ## of single-bin variants that are in the same bin in all 3 replicates, in 2 or in none
+-Your Venn diagrams show which variants are present in only one bin, 2 or 3 across replicates.  That’s good to know.  It’d also be good to look at a plot of variant frequency vs. probability (variant in only one bin) for each replicate.  A second plot that would be helpful is a barplot showing the ## of single-bin variants that are in the same bin in all 3 replicates, in 2 or in none
+
+> I am not quite sure what it is for variant frequency vs. probability (variant in only one bin) for each replicate.
+
+![](MAVE_CodonCounts_SingleBinVariantsRandomness_NumBinsAssays_Bins.svg)
 
 -The correlations actually look OK, but I do think they reflect PCR problems.  The “wings” you see on the correlation plots are exactly what you get when PCR goes awry.  I bet they reflect variants that PCR’ed poorly (e.g. because of jackpotting) in one replicate but not another.  You could try to analyze just the variants with consistent frequencies in each bin across all 3 replicates and see if that set performs as expected.
+
+> Thanks a lot. I agree with you. I will work on that. The issue is we don't have  positive controls any more after such filtering.

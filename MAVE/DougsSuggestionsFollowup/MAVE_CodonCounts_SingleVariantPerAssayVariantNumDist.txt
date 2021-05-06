@@ -1,0 +1,2 @@
+Assay	MinCounts	NumBins	NumVariants
+Assay22	0	1Bins	3341
