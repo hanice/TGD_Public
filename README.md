@@ -1,4 +1,4 @@
-# This repository is to share project summaries
+# This repository is to share project summaries temporarily
 
 # Keep confidential please 
 
