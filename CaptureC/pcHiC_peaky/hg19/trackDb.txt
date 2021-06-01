@@ -4,6 +4,7 @@ shortLabel Islet1_Counts
 longLabel Islet1_Counts
 type bigWig
 visibility full
+color 0,0,255
 autoScale on
 
 track Islet1_rjmcmc_pos
@@ -12,6 +13,7 @@ shortLabel Islet1_rjmcmc_pos
 longLabel Islet1_rjmcmc_pos
 type bigWig
 visibility full
+color 0,255,0
 autoScale on
 
 track Islet2_Counts
