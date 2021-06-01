@@ -1,0 +1,5 @@
+hub pc-HiC
+shortLabel pc-HiC
+longLabel pc-HiC
+genomesFile genomes.txt
+email hansun@stanford.edu
