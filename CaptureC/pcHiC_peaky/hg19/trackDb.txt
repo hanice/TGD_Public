@@ -1,7 +1,7 @@
-track Islet1_Counts
+track Islet1_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg19/Islet1_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet1_Counts
-longLabel Islet1_Counts
+shortLabel Islet1_counts
+longLabel Islet1_counts
 type bigWig
 visibility full
 autoScale on
@@ -15,10 +15,10 @@ visibility full
 color 0,0,255
 autoScale on
 
-track Islet2_Counts
+track Islet2_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg19/Islet2_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet2_Counts
-longLabel Islet2_Counts
+shortLabel Islet2_counts
+longLabel Islet2_counts
 type bigWig
 visibility full
 autoScale on
@@ -33,10 +33,10 @@ color 0,0,255
 autoScale on
 
 
-track Islet3_Counts
+track Islet3_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg19/Islet3_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet3_Counts
-longLabel Islet3_Counts
+shortLabel Islet3_counts
+longLabel Islet3_counts
 type bigWig
 visibility full
 autoScale on
@@ -50,10 +50,10 @@ visibility full
 color 0,0,255
 autoScale on
 
-track Islet4_Counts
+track Islet4_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg19/Islet4_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet4_Counts
-longLabel Islet4_Counts
+shortLabel Islet4_counts
+longLabel Islet4_counts
 type bigWig
 visibility full
 autoScale on
