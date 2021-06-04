@@ -7,7 +7,7 @@
     - ChIP-seq human (2733 samples from dozens of tissues or cells for 714 TFs)
 
 - Other datasets
-    - ATAC-seq of mouse preimplantation embryos
+    - ATAC-seq of mouse preimplantation embryos ([Nature Genetics 2016](wu2016.pdf))
     - ATAC-seq of Claire's HNF1A project (54 samples differentiated from human IPSc to BLC) 
     - scATAC-seq data of human fetus pancreas (UCSF), adult islets/pancreas
 
