@@ -67,6 +67,23 @@ visibility full
 color 0,0,255
 autoScale on
 
+track Islet1-4_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg19/Islet1-4_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet1-4_counts
+longLabel Islet1-4_counts
+type bigWig
+visibility full
+autoScale on
+
+track Islet1-4_rjmcmc_pos
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg19/Islet1-4_Sub_FragmentCounts_BaitPrey_PosterialSummary_Combined_ChrPos.bw
+shortLabel Islet1-4_rjmcmc_pos
+longLabel Islet1-4_rjmcmc_pos
+type bigWig
+visibility full
+color 0,0,255
+autoScale on
+
 track Primer_Bait
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg19/Parameters_T2D_Promoter_BaitID.bb
 shortLabel Primer_Bait
