@@ -50,7 +50,7 @@ A bonus by checking the ChIP-seq data: The bellowing 15 TFs targeted to the prom
 - ATAC-seq of mouse preimplantation embryos
 ![](ATACseq_Mouse_PreimplantationEmbryos_Gins4_Tracks.svg)
 
-Didn't see any suspicious signals.
+Didn't see suspicious peaks.
 
 - ATAC-seq of Claire's HNF1A project (54 samples differentiated from human IPSc to BLC) 
 ![](ATACseq_HNF1A_GINS4_Exon4-5_Gins4_Tracks.svg)
