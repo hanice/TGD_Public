@@ -6,6 +6,8 @@
     - ChIP-seq mouse (320 samples from dozens of tissues or cells for 53 TFs)
     - ChIP-seq human (2733 samples from dozens of tissues or cells for 714 TFs)
 
+Check this [table](https://docs.google.com/spreadsheets/d/1bng6xYxzDPNux785Ol7Bh0gN1cgzZwOkviVlctiLFRM/edit?usp=sharing) for the list of tissues/cells.
+
 - Other datasets
     - ATAC-seq of mouse preimplantation embryos ([Nature Genetics 2016](wu2016.pdf))
     - ATAC-seq of Claire's HNF1A project (54 samples differentiated from human IPSc to BLC) 
