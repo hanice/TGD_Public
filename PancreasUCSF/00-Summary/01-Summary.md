@@ -116,3 +116,5 @@ adult islets vs fetus pancreas. Same trend as above that adult islets are less a
 
 Top hits in SMAD5, EGR1, WT1, etc in the contrast between adult pancreas and fetus pancreas. However, it might or might not make much sense that both up and down peaks share these motifs.
 
+6. differential peaks aligned with T2D loci
+
