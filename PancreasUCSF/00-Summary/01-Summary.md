@@ -86,7 +86,7 @@ There is a large portion of alpha cells in the adult islets, however, there isn'
 
 ![](Plot-UMAP-Marker-Genes-W-Imputation_6Samples_Beta.png)
 
-There are beta cells presented in adult islets, fetus pancreas, and also adult pancreas, despite that only small number of cells in the last one.
+There are beta cells presented in adult islets, fetus pancreas, and also adult pancreas, despite that only small proportion of cells in the last one.
 
 ----
 
@@ -106,6 +106,8 @@ We are focusing on the comparison between adult pancreas and fetus pancreas in b
 
 Adult pancreas vs fetus pancreas. The majority of differential peaks are down regulated, which suggested adult pancreas is less accessible compared to fetus.
 
+Check this [table](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas_FDR0.05Log2FC1_6Samples.txt) for the significant peaks.
+
 5. motif enrichment in differential peaks
 
 ![](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas-Markers-Motifs-Enriched_6Samples_Up.png)
@@ -115,4 +117,27 @@ Adult pancreas vs fetus pancreas. The majority of differential peaks are down re
 Top hits in SMAD5, EGR1, WT1, etc in the contrast between adult pancreas and fetus pancreas. However, it might or might not make much sense that both up and down peaks share these motifs.
 
 6. differential peaks aligned with T2D loci
+
+![](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_T2D_Interval_ByLoci_ScatterPlot.png)
+
+T2D credible intervals ordered by the number of overlapped differential peaks (normalized by length of the interval)
+
+rs231361_KCNQ1 has x-axis values as 0 because its position annotated in the table was a point rather than an interval.
+
+The rs231361_KCNQ1 has been discussed in the Nature Genetics paper.
+
+![](Plot-Tracks-With-Features_6Samples_KCNQ1.png)
+
+C8 is fetus pancreas, C1 is adult pancreas and C18 is adult islets.
+
+Loops panel indicates T2D loci.
+
+Check this [table](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_T2D_Interval_ByLoci.txt) for the overlapped peaks.
+
+
+-----
+
+## Methods:
+
+Adult pancreas and islets samples accessed from GEO (GSE160472, Chiou et al., Nature Genetics, 2021) database were analyzed together with our fetus pancreas samples. Combinatorial barcoding (CB) data were processed with the ENCODE ATAC-seq pipeline (v1.9.3) by aligning to the genome reference GRCh38. Cell barcoding information contained in the read names was added as CB tags in the bam files with a customized script. Only mapped reads with MAPQ score > 30 were retained. 10x data were processed using cellranger-atac (v2.0.0) against GRCh38 with default parameters. ArchR (v1.0.1) was used as a platform for the downstream analysis, including clustering, peak calling (MACS2, v2.2.7.1), differential peaks, and motif enrichment, based on the input files from either bam (CB data, with bcTag = "CB" for the createArrowFiles function) or fragments (10x data). Differential peaks were overlapped with the 99% credible sets for 380 distinct T2D association signals (Mahajan et al., Nature Genetics, 2018, Supplementary Table 5 with GRCh37 coordinates mapped to GRCh38 by LiftOver)
 
