@@ -145,14 +145,19 @@ Adult pancreas and islets samples accessed from GEO (GSE160472, Chiou et al., Na
 
 ## Extra analysis:
 
-- Other types of cells (alpha and delta)
+- Other types of cells (alpha and delta)?
 
 ![](GeneScore_Cluster_GeneMarker_6Samples_INS.png)
 
+For beta cells, the top three clusters are C18 (adult islets), C1 (fetus pancreas), and C8 (adult pancreas).
+
 ![](GeneScore_Cluster_GeneMarker_6Samples_GCG.png)
+
+For alpha cels, top clusters are either adult islets or adult pancres (CB). We don't see many alpha cells in the fetus pancreas (the highest mean score is smaller than 0.5).
 
 ![](GeneScore_Cluster_GeneMarker_6Samples_SST.png)
 
+For delta cells, the top two clusters (C8 and C1) have already been asigned to beta cells (higher score in INS). Other clusters have poor scores.
 
 - Adult islets vs fetus pancreas in beta cells
 
