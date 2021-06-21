@@ -147,6 +147,12 @@ Adult pancreas and islets samples accessed from GEO (GSE160472, Chiou et al., Na
 
 - Other types of cells (alpha and delta)
 
+![](GeneScore_Cluster_GeneMarker_6Samples_INS.png)
+
+![](GeneScore_Cluster_GeneMarker_6Samples_GCG.png)
+
+![](GeneScore_Cluster_GeneMarker_6Samples_SST.png)
+
 
 - Adult islets vs fetus pancreas in beta cells
 
