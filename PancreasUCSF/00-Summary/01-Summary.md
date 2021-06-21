@@ -32,12 +32,12 @@ For each png format plot in this document, there is a pdf version in the same fo
 
 | GSM | Sample | Info |
 | --- | --- | --- |
-| GSM4873768 | Islet1 (combinatorial barcoding, CB) | Age32, Male, Non-Diabetic |
-| GSM4873769 | Islet2 (CB) | Age45, Male, Non-Diabetic |
-| GSM4873770 | Islet3 (CB) | Age62, Male, Non-Diabetic |
-| GSM4873771 | Pancreas1 (CB) | Age33, Male, Non-Diabetic |
-| GSM4873772 | Pancreas2 (10X) | Age33, Male, Non-Diabetic |
-| UCSF | Pancreas3 (10X) | NA |
+| GSM4873768 | 1-Islet1 (combinatorial barcoding, CB) | Age32, Male, Non-Diabetic |
+| GSM4873769 | 2-Islet2 (CB) | Age45, Male, Non-Diabetic |
+| GSM4873770 | 3-Islet3 (CB) | Age62, Male, Non-Diabetic |
+| GSM4873771 | 4-Pancreas1 (CB) | Age33, Male, Non-Diabetic |
+| GSM4873772 | 5-Pancreas2 (10X) | Age33, Male, Non-Diabetic |
+| UCSF | 6-Pancreas3 (10X) | Fetus, 12week, Epcam |
 
 2. quality control
 
@@ -70,7 +70,7 @@ The TSS enrichment score (signal-to-background ratio) is okay. The Pancreas2 (10
 
 3. clustering
 
-![](Plot-UMAP-Sample-Clusters_Samples.png)
+![](Plot-UMAP-Sample-Clusters_6Samples_Samples.png)
 
 The clustering  makes sense. 
 
@@ -80,11 +80,11 @@ Two clusters (Cluster4 and Cluster5) of adult pancreas suggested technical effec
 
 Fetus pancreas (Cluster6) is separated from adult pancreas (Cluster5) although they are both profiled using 10x. 
 
-![](Plot-UMAP-Marker-Genes-W-Imputation_Alpha.png)
+![](Plot-UMAP-Marker-Genes-W-Imputation_6Samples_Alpha.png)
 
 There is a large portion of alpha cells in the adult islets, however, there isn't much in the pancreas. 
 
-![](Plot-UMAP-Marker-Genes-W-Imputation_Beta.png)
+![](Plot-UMAP-Marker-Genes-W-Imputation_6Samples_Beta.png)
 
 There are beta cells presented in adult islets, fetus pancreas, and also adult pancreas, despite that only small number of cells in the last one.
 
@@ -92,27 +92,25 @@ There are beta cells presented in adult islets, fetus pancreas, and also adult p
 
 We would like to explore the difference of beta cells in the fetus pancreas, adult pancreas, and adult islets. However, we should keep in mind there are a few caveats.
 
-1. adult pancreas vs fetus pancreas: there is only a small portion of beta cells in the adult pancreas and the sample size is one.
+1. adult pancreas vs fetus pancreas: there is relatively a small proportion of beta cells in the adult pancreas and the sample size is one.
 
 2. adult islets vs fetus pancreas: it is confounded by the profiling methods (CB vs 10x).
+
+We are focusing on the comparison between adult pancreas and fetus pancreas in beta cells in the bellowing:
 
 ----
 
 4. differential peaks
 
-![](C7-vs-C2-Markers-Volcano.png)
+![](BetaCells_AdultPancreas-vs-FetusPancreas-Markers-Volcano_6Samples.png)
 
-adult pancreas vs fetus pancreas. The majority of differential peaks are down regulated, which suggested adult pancreas is less accessible compared to fetus.
-
-![](C14-vs-C2-Markers-Volcano.png)
-
-adult islets vs fetus pancreas. Same trend as above that adult islets are less accessible. Furthermore, more differential peaks here, might be contributed by the different profiling methods. 
+Adult pancreas vs fetus pancreas. The majority of differential peaks are down regulated, which suggested adult pancreas is less accessible compared to fetus.
 
 5. motif enrichment in differential peaks
 
-![](C7-vs-C2-Markers-Motifs-Enriched_up.png)
+![](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas-Markers-Motifs-Enriched_6Samples_Up.png)
 
-![](C7-vs-C2-Markers-Motifs-Enriched_down.png)
+![](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas-Markers-Motifs-Enriched_6Samples_Down.png)
 
 Top hits in SMAD5, EGR1, WT1, etc in the contrast between adult pancreas and fetus pancreas. However, it might or might not make much sense that both up and down peaks share these motifs.
 
