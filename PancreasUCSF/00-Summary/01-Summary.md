@@ -149,7 +149,7 @@ Adult pancreas and islets samples accessed from GEO (GSE160472, Chiou et al., Na
 
 ![](GeneScore_Cluster_GeneMarker_6Samples_INS.png)
 
-For beta cells, the top three clusters are C18 (adult islets), C1 (fetus pancreas), and C8 (adult pancreas).
+For beta cells, the top three clusters are C18 (adult islets), C1 (adult pancreas), and C8 (fetus pancreas). Their relative heights make sense.
 
 ![](GeneScore_Cluster_GeneMarker_6Samples_GCG.png)
 
@@ -194,3 +194,7 @@ C8 is fetus pancreas, C1 is adult pancreas and C18 is adult islets.
 Loops panel indicates T2D loci.
 
 Check this [table](BetaCells_DiffPeaks_AdultIslet-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_T2D_Interval_ByLoci.txt) for the overlapped peaks.
+
+- UMAP clusters
+![](Plot-UMAP-Sample-Clusters_6Samples_Clusters.png)
+
