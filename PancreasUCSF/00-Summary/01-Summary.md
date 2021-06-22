@@ -114,7 +114,7 @@ Check this [table](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas_FDR0.05Log
 
 ![](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas-Markers-Motifs-Enriched_6Samples_Down.png)
 
-Top hits in SMAD5, EGR1, WT1, etc in the contrast between adult pancreas and fetus pancreas. However, it might or might not make much sense that both up and down peaks share these motifs.
+Top hits in SMAD5, EGR1, WT1, ZBTB7A, etc in the contrast between adult pancreas and fetus pancreas. However, it might or might not make much sense that both up and down peaks share these motifs.
 
 6. differential peaks aligned with T2D loci
 
@@ -165,7 +165,7 @@ For delta cells, the top two clusters (C8 and C1) have already been asigned to b
 
 ![](BetaCells_AdultIslet-vs-FetusPancreas-Markers-Volcano_6Samples.png)
 
-Adult islets vs fetus pancreas. The majority of differential peaks are down regulated, which suggested adult islets are less accessible compared to fetus.
+Adult islets vs fetus pancreas. The majority of differential peaks are down regulated, which suggested adult islets are less accessible compared to fetus. More more significant hits than adult pancreas vs fetus pancreas.
 
 Check this [table](BetaCells_DiffPeaks_AdultIslet-vs-FetusPancreas_FDR0.05Log2FC1_6Samples.txt) for the significant peaks.
 
@@ -175,7 +175,7 @@ Check this [table](BetaCells_DiffPeaks_AdultIslet-vs-FetusPancreas_FDR0.05Log2FC
 
 ![](BetaCells_DiffPeaks_AdultIslet-vs-FetusPancreas-Markers-Motifs-Enriched_6Samples_Down.png)
 
-Top hits in SMAD5, EGR1, WT1, etc in the contrast between adult pancreas and fetus pancreas.
+Top hits in JUN and FOS families in the up regulated peaks while ZBTB7A, WT1, CTCFL, EGR1, etc in the down regulated peaks.
 
     - differential peaks aligned with T2D loci
 
@@ -183,7 +183,7 @@ Top hits in SMAD5, EGR1, WT1, etc in the contrast between adult pancreas and fet
 
 T2D credible intervals ordered by the number of overlapped differential peaks (normalized by length of the interval)
 
-rs231361_KCNQ1 has x-axis values as 0 because its position annotated in the table was a point rather than an interval.
+Top three hits have x-axis values as 0 because their positions annotated in the table were points rather than intervals.
 
 The rs231361_KCNQ1 has been discussed in the Nature Genetics paper.
 
