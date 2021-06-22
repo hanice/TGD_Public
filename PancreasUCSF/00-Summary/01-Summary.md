@@ -194,7 +194,3 @@ C8 is fetus pancreas, C1 is adult pancreas and C18 is adult islets.
 Loops panel indicates T2D loci.
 
 Check this [table](BetaCells_DiffPeaks_AdultIslet-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_T2D_Interval_ByLoci.txt) for the overlapped peaks.
-
-- UMAP clusters
-![](Plot-UMAP-Sample-Clusters_6Samples_Clusters.png)
-
