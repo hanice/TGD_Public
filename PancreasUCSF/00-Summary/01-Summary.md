@@ -126,6 +126,13 @@ rs231361_KCNQ1 has x-axis values as 0 because its position annotated in the tabl
 
 The rs231361_KCNQ1 has been discussed in the Nature Genetics paper.
 
+Separate up (more open in adults) and down (more open in fetus) peaks bellowing:
+
+![](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_up_T2D_Interval_ByLoci_ScatterPlot.png)
+
+![](BetaCells_DiffPeaks_AdultPancreas-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_down_T2D_Interval_ByLoci_ScatterPlot.png)
+
+
 ![](Plot-Tracks-With-Features_AdultPancreas-vs-FetusPancreas_6Samples_KCNQ1.png)
 
 C8 is fetus pancreas, C1 is adult pancreas and C18 is adult islets.
@@ -186,6 +193,12 @@ T2D credible intervals ordered by the number of overlapped differential peaks (n
 Top three hits have x-axis values as 0 because their positions annotated in the table were points rather than intervals.
 
 The rs231361_KCNQ1 has been discussed in the Nature Genetics paper.
+
+Separate up (more open in adults) and down (more open in fetus) peaks bellowing:
+
+![](BetaCells_DiffPeaks_AdultIslet-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_up_T2D_Interval_ByLoci_ScatterPlot.png)
+
+![](BetaCells_DiffPeaks_AdultIslet-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_down_T2D_Interval_ByLoci_ScatterPlot.png)
 
 ![](Plot-Tracks-With-Features_AdultIslets-vs-FetusPancreas_6Samples_KCNQ1.png)
 
