@@ -47,7 +47,7 @@ type bigWig
 visibility full
 color 0,0,255
 autoScale off
-viewLimits=0:1
+viewLimits 0:1
 
 track Primer_Bait
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_BaitID.bb
