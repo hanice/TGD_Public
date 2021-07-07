@@ -1,0 +1,57 @@
+track Islet1_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet1_counts
+longLabel Islet1_counts
+type bigWig
+visibility full
+autoScale on
+
+track Islet2_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet2_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet2_counts
+longLabel Islet2_counts
+type bigWig
+visibility full
+autoScale on
+
+
+track Islet3_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet3_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet3_counts
+longLabel Islet3_counts
+type bigWig
+visibility full
+autoScale on
+
+track Islet4_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet4_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet4_counts
+longLabel Islet4_counts
+type bigWig
+visibility full
+autoScale on
+
+track Islet1-4_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1-4_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet1-4_counts
+longLabel Islet1-4_counts
+type bigWig
+visibility full
+autoScale on
+
+track Islet1-4_rjmcmc_pos
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1-4_Sub_FragmentCounts_BaitPrey_PosterialSummary_Combined_ChrPos.bw
+shortLabel Islet1-4_rjmcmc_pos
+longLabel Islet1-4_rjmcmc_pos
+type bigWig
+visibility full
+color 0,0,255
+autoScale on
+
+track Primer_Bait
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_BaitID.bb
+shortLabel Primer_Bait
+longLabel Primer_Bait
+type bigBed
+visibility full
+color 255,0,0
