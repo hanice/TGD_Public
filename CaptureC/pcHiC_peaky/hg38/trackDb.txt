@@ -49,10 +49,34 @@ color 0,0,255
 autoScale off
 viewLimits 0:1
 
-track Primer_Bait
-bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_BaitID.bb
-shortLabel Primer_Bait
-longLabel Primer_Bait
+track EndoC_BH1_HiC
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/EndoC_BH1_HiC_Promoter_FragmentCounts_BaitPrey.bw
+shortLabel EndoC_BH1_HiC
+longLabel EndoC_BH1_HiC
+type bigWig
+visibility full
+autoScale on
+
+track Islet_HiC
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet_HiC_Promoter_FragmentCounts_BaitPrey.bw
+shortLabel Islet_HiC
+longLabel Islet_HiC
+type bigWig
+visibility full
+autoScale on
+
+track Primer_Bait_HindIII
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_hg38_BaitID.bb
+shortLabel Primer_Bait_HindIII
+longLabel Primer_Bait_HindIII
+type bigBed
+visibility full
+color 255,0,0
+
+track Primer_Bait_MboI
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_hg38_BaitID_MboI.bb
+shortLabel Primer_Bait_MboI
+longLabel Primer_Bait_MboI
 type bigBed
 visibility full
 color 255,0,0
