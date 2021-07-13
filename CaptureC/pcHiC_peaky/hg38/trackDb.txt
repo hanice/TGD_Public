@@ -1,44 +1,3 @@
-track Islet1_counts
-bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet1_counts
-longLabel Islet1_counts
-type bigWig
-visibility full
-autoScale on
-
-track Islet2_counts
-bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet2_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet2_counts
-longLabel Islet2_counts
-type bigWig
-visibility full
-autoScale on
-
-
-track Islet3_counts
-bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet3_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet3_counts
-longLabel Islet3_counts
-type bigWig
-visibility full
-autoScale on
-
-track Islet4_counts
-bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet4_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet4_counts
-longLabel Islet4_counts
-type bigWig
-visibility full
-autoScale on
-
-track Islet1-4_counts
-bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1-4_Sub_FragmentCounts_BaitPrey.bw
-shortLabel Islet1-4_counts
-longLabel Islet1-4_counts
-type bigWig
-visibility full
-autoScale on
-
 track Islet1-4_rjmcmc_pos
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1-4_Sub_FragmentCounts_BaitPrey_PosterialSummary_Combined_ChrPos.bw
 shortLabel Islet1-4_rjmcmc_pos
@@ -48,6 +7,60 @@ visibility full
 color 0,0,255
 autoScale off
 viewLimits 0:1
+group pcHic
+priority 2
+
+track Islet1-4_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1-4_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet1-4_counts
+longLabel Islet1-4_counts
+type bigWig
+visibility full
+autoScale on
+group pcHic
+priority 1
+
+
+track Islet1_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet1_counts
+longLabel Islet1_counts
+type bigWig
+visibility full
+autoScale on
+group pcHic
+priority 4
+
+track Islet2_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet2_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet2_counts
+longLabel Islet2_counts
+type bigWig
+visibility full
+autoScale on
+group pcHic
+priority 3
+
+
+track Islet3_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet3_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet3_counts
+longLabel Islet3_counts
+type bigWig
+visibility full
+autoScale on
+group pcHic
+priority 2
+
+track Islet4_counts
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet4_Sub_FragmentCounts_BaitPrey.bw
+shortLabel Islet4_counts
+longLabel Islet4_counts
+type bigWig
+visibility full
+autoScale on
+group pcHic
+priority 1
 
 track EndoC_BH1_HiC
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/EndoC_BH1_HiC_Promoter_FragmentCounts_BaitPrey.bw
@@ -56,6 +69,8 @@ longLabel EndoC_BH1_HiC
 type bigWig
 visibility full
 autoScale on
+group Hic
+priority 2
 
 track Islet_HiC
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet_HiC_Promoter_FragmentCounts_BaitPrey.bw
@@ -64,6 +79,8 @@ longLabel Islet_HiC
 type bigWig
 visibility full
 autoScale on
+group Hic
+priority 1
 
 track Primer_Bait_HindIII
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_hg38_BaitID.bb
@@ -72,6 +89,8 @@ longLabel Primer_Bait_HindIII
 type bigBed
 visibility full
 color 255,0,0
+group Bait
+priority 2
 
 track Primer_Bait_MboI
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_hg38_BaitID_MboI.bb
@@ -80,3 +99,5 @@ longLabel Primer_Bait_MboI
 type bigBed
 visibility full
 color 255,0,0
+group Bait
+priority 1
