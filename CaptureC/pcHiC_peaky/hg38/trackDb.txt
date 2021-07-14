@@ -8,7 +8,7 @@ color 0,0,255
 autoScale off
 viewLimits 0:1
 group pcHic
-priority 2
+priority 10
 
 track Islet1-4_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1-4_Sub_FragmentCounts_BaitPrey.bw
@@ -18,7 +18,7 @@ type bigWig
 visibility full
 autoScale on
 group pcHic
-priority 1
+priority 9
 
 
 track Islet1_counts
@@ -29,7 +29,7 @@ type bigWig
 visibility full
 autoScale on
 group pcHic
-priority 4
+priority 8
 
 track Islet2_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet2_Sub_FragmentCounts_BaitPrey.bw
@@ -39,7 +39,7 @@ type bigWig
 visibility full
 autoScale on
 group pcHic
-priority 3
+priority 7
 
 
 track Islet3_counts
@@ -50,7 +50,7 @@ type bigWig
 visibility full
 autoScale on
 group pcHic
-priority 2
+priority 6
 
 track Islet4_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet4_Sub_FragmentCounts_BaitPrey.bw
@@ -60,7 +60,7 @@ type bigWig
 visibility full
 autoScale on
 group pcHic
-priority 1
+priority 5
 
 track EndoC_BH1_HiC
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/EndoC_BH1_HiC_Promoter_FragmentCounts_BaitPrey.bw
@@ -70,7 +70,7 @@ type bigWig
 visibility full
 autoScale on
 group Hic
-priority 2
+priority 4
 
 track Islet_HiC
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet_HiC_Promoter_FragmentCounts_BaitPrey.bw
@@ -80,7 +80,7 @@ type bigWig
 visibility full
 autoScale on
 group Hic
-priority 1
+priority 3
 
 track Primer_Bait_HindIII
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_hg38_BaitID.bb
