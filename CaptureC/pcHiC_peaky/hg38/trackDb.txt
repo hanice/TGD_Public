@@ -7,8 +7,7 @@ visibility full
 color 0,0,255
 autoScale off
 viewLimits 0:1
-group pcHic
-priority 11
+priority 1
 
 track Islet1-4_CHiCAGO
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1234_CHiCAGO_Score5_Promoter.bw
@@ -18,8 +17,7 @@ type bigWig
 visibility full
 color 0,0,255
 autoScale auto
-group pcHic
-priority 10
+priority 2
 
 
 track Islet1-4_counts
@@ -29,8 +27,7 @@ longLabel Islet1-4_counts
 type bigWig
 visibility full
 autoScale on
-group pcHic
-priority 9
+priority 3
 
 
 track Islet1_counts
@@ -40,8 +37,7 @@ longLabel Islet1_counts
 type bigWig
 visibility full
 autoScale on
-group pcHic
-priority 8
+priority 4
 
 track Islet2_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet2_Sub_FragmentCounts_BaitPrey.bw
@@ -50,8 +46,7 @@ longLabel Islet2_counts
 type bigWig
 visibility full
 autoScale on
-group pcHic
-priority 7
+priority 5
 
 
 track Islet3_counts
@@ -61,7 +56,6 @@ longLabel Islet3_counts
 type bigWig
 visibility full
 autoScale on
-group pcHic
 priority 6
 
 track Islet4_counts
@@ -71,8 +65,7 @@ longLabel Islet4_counts
 type bigWig
 visibility full
 autoScale on
-group pcHic
-priority 5
+priority 7
 
 track EndoC_BH1_HiC
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/EndoC_BH1_HiC_Promoter_FragmentCounts_BaitPrey.bw
@@ -81,8 +74,7 @@ longLabel EndoC_BH1_HiC
 type bigWig
 visibility full
 autoScale on
-group Hic
-priority 4
+priority 8
 
 track Islet_HiC
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet_HiC_Promoter_FragmentCounts_BaitPrey.bw
@@ -91,8 +83,7 @@ longLabel Islet_HiC
 type bigWig
 visibility full
 autoScale on
-group Hic
-priority 3
+priority 9
 
 track Primer_Bait_HindIII
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_hg38_BaitID.bb
@@ -101,8 +92,7 @@ longLabel Primer_Bait_HindIII
 type bigBed
 visibility full
 color 255,0,0
-group Bait
-priority 2
+priority 10
 
 track Primer_Bait_MboI
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Parameters_T2D_Promoter_hg38_BaitID_MboI.bb
@@ -111,5 +101,4 @@ longLabel Primer_Bait_MboI
 type bigBed
 visibility full
 color 255,0,0
-group Bait
-priority 1
+priority 11
