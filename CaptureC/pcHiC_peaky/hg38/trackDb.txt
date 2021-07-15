@@ -8,7 +8,19 @@ color 0,0,255
 autoScale off
 viewLimits 0:1
 group pcHic
+priority 11
+
+track Islet1-4_CHiCAGO
+bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1234_CHiCAGO_Score5_Promoter.bw
+shortLabel Islet1-4_CHiCAGO
+longLabel Islet1-4_CHiCAGO
+type bigWig
+visibility full
+color 0,0,255
+autoScale auto
+group pcHic
 priority 10
+
 
 track Islet1-4_counts
 bigDataUrl https://raw.githubusercontent.com/hanice/TGD_Public/main/CaptureC/pcHiC_peaky/hg38/Islet1-4_Sub_FragmentCounts_BaitPrey.bw
