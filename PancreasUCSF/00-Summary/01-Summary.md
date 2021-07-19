@@ -207,3 +207,52 @@ C8 is fetus pancreas, C1 is adult pancreas and C18 is adult islets.
 Loops panel indicates T2D loci.
 
 Check this [table](BetaCells_DiffPeaks_AdultIslet-vs-FetusPancreas_FDR0.05Log2FC1_6Samples_T2D_Interval_ByLoci.txt) for the overlapped peaks.
+
+------
+
+Endocrine progenitor (NEUROG3) cells vs all fetal/adult Hormone+ (GCG, INS, SST, GHRL) cells?
+
+- As discussed with Sean, try to annotate each dataset separately and then map those annotations on the merged dataset.
+
+![](GeneScore_Cluster_GeneMarker_6Samples_Six_Clustering_Combiened-vs-Separated.png)
+
+Annotating samples separately or together produced very similar results. So it doesn't matter about which method to use.
+
+- Fetus Endocrine progenitor (NEUROG3) cells vs fetal/adult Hormone+ (GCG, INS, SST, GHRL) cells
+
+Annotating cell types using the following rule:
+
+```
+Classify a cell to a cell type if one of the marker genes (GCG, INS, SST, GHRL, and NEUROG3) has the highest score. 
+
+But the highest score should > 0.5, and the difference of the highest score and the second highest score should > 0.1.
+
+Other cells are classified as Unknown.
+```
+
+![](GeneScore_Cluster_GeneMarker_6Samples_Six_CombinedClustering.png)
+
+    - differential peaks:
+
+![](FetusEP-vs-FetusAdultHormone-Markers-MA-Volcano_6Samples.png)
+
+Check this [table](FetusEP-vs-FetusAdultHormone_FDR0.05Log2FC1_6Samples.txt) for the significant peaks.
+
+    - motif enrichment in differential peaks (up and down)
+
+![](FetusEP-vs-FetusAdultHormone-Markers-Motifs-Enriched_6Samples_up.png)
+
+![](FetusEP-vs-FetusAdultHormone-Markers-Motifs-Enriched_6Samples_down.png)
+
+    - differential peaks (up and down) aligned with T2D loci
+
+![](FetusEP-vs-FetusAdultHormone_FDR0.05Log2FC1_6Samples_up_T2D_Interval_ByLoci_ScatterPlot.png)
+
+![](FetusEP-vs-FetusAdultHormone_FDR0.05Log2FC1_6Samples_down_T2D_Interval_ByLoci_ScatterPlot.png)
+
+- Borrowing annotation from the Nature Genetics Paper?
+
+I think if we can these annotations (as well as the annotations we've made on the fetal dataset, plus the annotations from the 10x total pancreas samples) onto our merged object that contains both the fetal and adult samples then we will confidently know what cell types are what to do the comparisons between fetal and adult cells. What do you think?Actually looking at the GEO submission, it looks like they only include the cluster annotations for the islet samples and not the full pancreas ones.
+
+> Yes, it is true they only included the three islet samples from CB method in their clustering as you can see from  their source code [here](https://github.com/kjgaulton/pipelines/blob/master/islet_snATAC_pipeline/islet_snATAC.ipynb). They collected the matrix and did the clustering themselves rather than using ArchR. I feel it is not very good or necessary to use their clustering labels.
+
